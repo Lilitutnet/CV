@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Source+Code+Pro:wght@300;500&display=swap');
+html{
+    background-color:#1E1E1E ;
+    color: white;
+    font: 20px sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    padding: 0 150px;
+}
+
+.block{
+    margin-top: 100px;
+}
+.cv{
+text-align: center;
+margin: 10px auto 50px auto;
+}
+
+.lili:hover{
+    transition-property: transform;
+    transform: scale(1.2);
+    transition-duration: 2s;
+}
+
+
+.mainpart{
+    font-size: 32px;
+    margin: 0 10px;
+}
+
+.name p{
+    text-align: right;
+}
+
+.teacher p{
+    text-align: left;
+}
+
+.name, .teacher{
+    width: 260px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    /* margin: 100px 0; */
+}
+
+.select{
+    background: #00f1ff;
+    color: black;
+}
+
+.select:hover{
+    background: #C34231;
+}
+.about{
+    display: block;
+    width:  100%;
+    margin: 100px auto;
+    min-width: 525px;
+    /* flex-direction: column;
+    justify-content: center; */
+    /* background-color: aqua; */
+}
+
+.about p::before{
+    content: url('tag1.png');
+    margin-right: 30px;
+    
+}
+
+.about p::after{
+    content: url(tag2.png);
+    /* text-align: end; */
+    margin-left: 30px;
+}
+
+.practice{
+    width: 700px;
+
+    margin: 100px auto;
+
+}
+.practice img{
+    margin-top: 10px;
+}
+.work{
+    display: flex;
+    min-width: 610px;
+    justify-content: space-around ;
+}
+.work1{
+    text-align: right;
+}
+.work2{
+    text-align: left;
+}
+.work2 p{
+    margin-bottom: 40px;
+}
+.work1 p{
+    margin-bottom: 67px;
+}
+
+
+.image_mouse{
+    text-align: right;
+    margin-top: 50px;
+}
+
+.edu{
+    display: flex;
+    flex-direction: column;
+}
+
+.ed_head{
+    border: 3px solid white;
+    text-align: end;
+    padding: 10px 20px 10px;
+    background-color:#1E1E1E ;
+    font-size: 24px;
+
+}
+
+.ed_block{
+    /* height: 350px; */
+    margin-top: -3px;
+    border: 3px solid white;
+    padding: 20px 40px 80px 40px;
+
+}
+
+.edu1{
+    width: 50%;
+    min-width:356px;
+    margin: 20px 40px;
+   
+    
+}
+.edu2{
+    width: 70%;
+    min-width: 438px;
+    position:relative;
+    top:-67px;
+    left:30%;
+}
+.skill{
+    min-width: 923px;
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.icon{
+    height:80px;
+}
+.icon_r{
+    height:40px;
+
+}
+.icon_block{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.skills_block{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    /* margin: 30px; */
+}
+
+.contacts{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.cont_block{
+    margin: 100px auto 40px auto;
+    padding: 10px 40px;
+    width: 200px;
+    font-size: 24px;
+    text-align: center;
+    border-bottom: 3px solid #00ffff;
+}
